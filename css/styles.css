@@ -14,7 +14,7 @@ URL: http://subtlepatterns.com/dark-sharp-edges/
 
 /*Typography*/
 /*
-Header: font-family: 'Gravitas One', cursive;
+Header: font-family: 'Playfair Display SC', serif;
 Body: font-family: 'PT Sans', sans-serif;
 */
 
@@ -27,4 +27,13 @@ body {
     
     background: url(../img/footer_lodyas/footer_lodyas.png);
     background-attachment: fixed;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
 }
