@@ -2,14 +2,14 @@
 
 /*Colours*/
 /*
-Primary:
-Secondary:
-Accent:
+Primary: #1F2228
+Secondary: #D72C29
+Accent: #D6DAF3
 */
 
 /*Background*/
 /*
-URL: 
+URL: http://subtlepatterns.com/dark-sharp-edges/
 */
 
 /*Typography*/
@@ -17,3 +17,14 @@ URL:
 Header: font-family: 'Gravitas One', cursive;
 Body: font-family: 'PT Sans', sans-serif;
 */
+
+/*Sources for New Code*/
+/*
+Fixed Background: https://davidwalsh.name/css-fixed-position-background-image
+*/
+
+body {
+    
+    background: url(../img/footer_lodyas/footer_lodyas.png);
+    background-attachment: fixed;
+}
