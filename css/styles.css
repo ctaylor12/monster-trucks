@@ -34,6 +34,32 @@ h2 {
     font-family: 'Playfair Display SC', serif;
 }
 
+h1 {
+    font-size: 3em;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
 p {
     font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+/*li {
+    text-decoration:none;
+}*/
+
+header nav {
+    
+    background: rgba(31,34,40,.5);
+    position: fixed;
+    top: 0;
+    width: auto;
 }
