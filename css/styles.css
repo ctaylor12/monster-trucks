@@ -37,24 +37,37 @@ h2 {
 h1 {
     font-size: 3em;
     display: inline-block;
+    position: relative;
+    margin-top: 157px;
+/*
+    text-align: center;
+    vertical-align: middle;
+*/
 }
 
 h2 {
     font-size: 1.5em;
 }
 
-p {
+p,
+nav {
     font-family: 'PT Sans', sans-serif;
 }
 
 ul {
     list-style: none;
     display: inline-block;
+    padding: 3px 40px; 
+    
 }
 
-/*li {
+a:link,
+a:visited {
+    
     text-decoration:none;
-}*/
+    line-height: 32px;
+    color: #D72C29;
+}
 
 header nav {
     
@@ -62,4 +75,7 @@ header nav {
     position: fixed;
     top: 0;
     width: auto;
+    border: 1px solid #D6DAF3;
+    box-shadow: 0 0 20px 4px #D72C29;
+    margin-left: 7px;
 }
